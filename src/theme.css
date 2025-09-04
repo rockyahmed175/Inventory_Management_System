@@ -1,0 +1,25 @@
+/* Light theme */
+.light {
+  --bg-color: #f9fafb;
+  --text-color: #1f2937;
+  --card-bg: #ffffff;
+  --primary-color: #3b82f6;
+}
+
+/* Dark theme */
+.dark {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --card-bg: #1f2937;
+  --primary-color: #3b82f6;
+}
+
+/* Apply CSS variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-bg);
+}

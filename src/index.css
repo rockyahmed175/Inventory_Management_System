@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+button {
+  @apply transition-colors duration-200;
+}
